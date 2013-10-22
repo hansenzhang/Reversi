@@ -50,8 +50,8 @@ or the break in the control flow for the for loops...
 Nevertheless it may not be a huge issue for the program as the problem 
 seems to lie with the weighting algorithm that I implemented. 
 
-Two solutions that I tried to implement for data races was the implementation of a "breakable_range"
+Two solutions that I tried to implement for data races was the implementation of a "breakable range"
 that incorporated a blocked range with a volatile bool to cancel execution.  This didn't seem to have
-any effect however.  The second solution was to try using atomic<int> as my alpha beta values and/or using
-atomic<Move> (Move holds the x and y positions, as well as the heuristic value of the current move) but those
+any effect however.  The second solution was to try using atomic int  as my alpha beta values and/or using
+atomic Move (Move holds the x and y positions, as well as the heuristic value of the current move) but those
 were never implemented correctly.

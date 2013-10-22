@@ -1,0 +1,390 @@
+
+terminal node (2, 4)->4
+terminal node (2, 6)->7
+terminal node (3, 6)->10
+terminal node (4, 6)->13
+terminal node (5, 6)->16
+terminal node (6, 6)->19
+Maximize lookahead: 1 (2, 3)->19
+
+terminal node (2, 4)->6
+terminal node (3, 6)->9
+terminal node (5, 6)->12
+Maximize lookahead: 1 (3, 3)->12
+
+terminal node (3, 2)->4
+terminal node (3, 6)->10
+terminal node (5, 2)->12
+terminal node (5, 6)->18
+Return:  (5, 6)->12
+Maximize lookahead: 1 (4, 3)->12
+
+terminal node (3, 6)->4
+terminal node (5, 6)->7
+terminal node (6, 4)->13
+Return:  (6, 4)->12
+Maximize lookahead: 1 (5, 3)->12
+
+terminal node (2, 6)->4
+terminal node (3, 6)->7
+terminal node (4, 6)->10
+terminal node (5, 6)->13
+Return:  (5, 6)->12
+Maximize lookahead: 1 (6, 3)->12
+
+Minimize lookahead: 2 (3, 4)->12
+
+terminal node (2, 5)->4
+terminal node (2, 7)->7
+terminal node (3, 4)->10
+terminal node (4, 3)->13
+terminal node (5, 6)->16
+terminal node (6, 5)->19
+Maximize lookahead: 1 (3, 7)->19
+
+terminal node (3, 4)->7
+terminal node (5, 6)->12
+Maximize lookahead: 1 (4, 6)->12
+
+terminal node (2, 5)->4
+terminal node (3, 4)->7
+terminal node (4, 3)->10
+terminal node (6, 3)->13
+Return:  (6, 3)->12
+Maximize lookahead: 1 (5, 3)->12
+
+terminal node (2, 5)->4
+terminal node (3, 4)->7
+terminal node (4, 3)->10
+terminal node (6, 3)->13
+Return:  (6, 3)->12
+Maximize lookahead: 1 (6, 4)->12
+
+Minimize lookahead: 2 (3, 6)->12
+
+terminal node (2, 5)->6
+terminal node (3, 3)->9
+terminal node (3, 4)->12
+terminal node (5, 3)->15
+Maximize lookahead: 1 (6, 3)->15
+
+terminal node (2, 5)->6
+terminal node (3, 3)->9
+terminal node (3, 4)->12
+terminal node (5, 3)->15
+terminal node (7, 3)->18
+Return:  (7, 3)->15
+Maximize lookahead: 1 (6, 4)->15
+
+terminal node (3, 4)->7
+terminal node (3, 6)->9
+terminal node (7, 4)->12
+terminal node (7, 6)->15
+Maximize lookahead: 1 (6, 5)->15
+
+terminal node (3, 4)->7
+terminal node (3, 6)->9
+terminal node (7, 6)->12
+Maximize lookahead: 1 (6, 6)->12
+
+terminal node (2, 5)->6
+terminal node (3, 3)->9
+terminal node (3, 4)->12
+terminal node (3, 6)->15
+Return:  (3, 6)->12
+Maximize lookahead: 1 (6, 7)->12
+
+Minimize lookahead: 2 (5, 6)->12
+
+Maximize lookahead: 3 (3, 5)->12
+
+terminal node (2, 4)->4
+terminal node (3, 6)->7
+terminal node (4, 7)->12
+terminal node (5, 6)->15
+Return:  (5, 6)->12
+Maximize lookahead: 1 (2, 3)->12
+
+terminal node (3, 2)->4
+terminal node (3, 6)->7
+terminal node (5, 6)->13
+Return:  (5, 6)->12
+Maximize lookahead: 1 (3, 3)->12
+
+terminal node (3, 2)->4
+terminal node (3, 6)->7
+terminal node (5, 2)->10
+terminal node (5, 6)->16
+Return:  (5, 6)->12
+Maximize lookahead: 1 (4, 3)->12
+
+terminal node (4, 7)->6
+terminal node (5, 6)->9
+terminal node (6, 2)->12
+terminal node (6, 4)->15
+Return:  (6, 4)->12
+Maximize lookahead: 1 (5, 3)->12
+
+terminal node (4, 7)->6
+terminal node (5, 6)->9
+terminal node (6, 4)->12
+terminal node (6, 6)->15
+Return:  (6, 6)->12
+Maximize lookahead: 1 (6, 3)->12
+
+Minimize lookahead: 2 (3, 4)->12
+
+terminal node (2, 7)->4
+terminal node (3, 4)->7
+terminal node (4, 3)->10
+terminal node (4, 7)->13
+Return:  (4, 7)->12
+Maximize lookahead: 1 (2, 6)->12
+
+terminal node (3, 4)->7
+terminal node (5, 6)->12
+Maximize lookahead: 1 (3, 5)->12
+
+terminal node (4, 3)->4
+terminal node (4, 7)->7
+terminal node (5, 6)->10
+terminal node (6, 3)->13
+Return:  (6, 3)->12
+Maximize lookahead: 1 (5, 3)->12
+
+terminal node (4, 3)->4
+terminal node (4, 7)->7
+terminal node (5, 6)->10
+terminal node (6, 3)->13
+Return:  (6, 3)->12
+Maximize lookahead: 1 (6, 4)->12
+
+Minimize lookahead: 2 (3, 6)->12
+
+terminal node (3, 3)->4
+terminal node (3, 4)->7
+terminal node (3, 5)->10
+terminal node (3, 6)->13
+Return:  (3, 6)->12
+Maximize lookahead: 1 (6, 3)->12
+
+terminal node (3, 4)->4
+terminal node (3, 6)->7
+terminal node (5, 3)->13
+Return:  (5, 3)->12
+Maximize lookahead: 1 (6, 4)->12
+
+terminal node (3, 4)->7
+terminal node (3, 6)->12
+terminal node (7, 4)->14
+Return:  (7, 4)->12
+Maximize lookahead: 1 (6, 5)->12
+
+terminal node (3, 4)->4
+terminal node (3, 6)->7
+terminal node (5, 7)->12
+Maximize lookahead: 1 (6, 6)->12
+
+terminal node (3, 3)->4
+terminal node (3, 4)->7
+terminal node (3, 5)->10
+terminal node (3, 6)->13
+Return:  (3, 6)->12
+Maximize lookahead: 1 (6, 7)->12
+
+Minimize lookahead: 2 (5, 6)->12
+
+Maximize lookahead: 3 (4, 6)->12
+
+terminal node (4, 2)->4
+terminal node (6, 2)->7
+terminal node (6, 3)->10
+terminal node (6, 4)->13
+Return:  (6, 4)->12
+Maximize lookahead: 1 (3, 2)->12
+
+terminal node (4, 2)->6
+terminal node (6, 3)->9
+terminal node (6, 5)->12
+Maximize lookahead: 1 (3, 3)->12
+
+terminal node (2, 3)->4
+terminal node (2, 5)->7
+terminal node (6, 3)->13
+Return:  (6, 3)->12
+Maximize lookahead: 1 (3, 4)->12
+
+terminal node (4, 6)->7
+terminal node (6, 3)->9
+terminal node (6, 5)->12
+Maximize lookahead: 1 (3, 5)->12
+
+terminal node (4, 6)->4
+terminal node (6, 2)->7
+terminal node (6, 3)->10
+terminal node (6, 4)->13
+Return:  (6, 4)->12
+Maximize lookahead: 1 (3, 6)->12
+
+Minimize lookahead: 2 (4, 3)->12
+
+terminal node (3, 4)->4
+terminal node (3, 6)->7
+terminal node (4, 3)->10
+terminal node (5, 2)->13
+Return:  (5, 2)->12
+Maximize lookahead: 1 (3, 5)->12
+
+terminal node (3, 4)->4
+terminal node (3, 6)->7
+terminal node (4, 3)->10
+terminal node (5, 2)->13
+Return:  (5, 2)->12
+Maximize lookahead: 1 (4, 6)->12
+
+terminal node (4, 3)->7
+terminal node (6, 5)->12
+Maximize lookahead: 1 (6, 4)->12
+
+terminal node (3, 4)->4
+terminal node (4, 3)->7
+terminal node (5, 2)->10
+terminal node (5, 6)->13
+Return:  (5, 6)->12
+Maximize lookahead: 1 (7, 3)->12
+
+Minimize lookahead: 2 (6, 3)->12
+
+terminal node (3, 3)->4
+terminal node (3, 5)->7
+terminal node (4, 3)->10
+terminal node (5, 2)->15
+Return:  (5, 2)->12
+Maximize lookahead: 1 (3, 6)->12
+
+terminal node (3, 3)->4
+terminal node (3, 5)->7
+terminal node (3, 7)->10
+terminal node (4, 3)->13
+Return:  (4, 3)->12
+Maximize lookahead: 1 (4, 6)->12
+
+terminal node (4, 3)->7
+terminal node (4, 7)->9
+terminal node (6, 3)->12
+terminal node (6, 7)->15
+Return:  (6, 7)->12
+Maximize lookahead: 1 (5, 6)->12
+
+terminal node (4, 3)->7
+terminal node (6, 3)->9
+terminal node (6, 7)->12
+Maximize lookahead: 1 (6, 6)->12
+
+terminal node (3, 3)->4
+terminal node (4, 3)->7
+terminal node (5, 2)->12
+terminal node (6, 3)->15
+Return:  (6, 3)->12
+Maximize lookahead: 1 (7, 6)->12
+
+Minimize lookahead: 2 (6, 5)->12
+
+Maximize lookahead: 3 (5, 3)->12
+
+terminal node (4, 2)->4
+terminal node (6, 3)->7
+terminal node (6, 5)->10
+terminal node (6, 6)->13
+Return:  (6, 6)->12
+Maximize lookahead: 1 (3, 2)->12
+
+terminal node (2, 3)->4
+terminal node (6, 3)->7
+terminal node (6, 5)->13
+Return:  (6, 5)->12
+Maximize lookahead: 1 (3, 3)->12
+
+terminal node (2, 3)->4
+terminal node (2, 5)->7
+terminal node (6, 3)->10
+terminal node (6, 5)->16
+Return:  (6, 5)->12
+Maximize lookahead: 1 (3, 4)->12
+
+terminal node (2, 6)->4
+terminal node (4, 6)->7
+terminal node (6, 5)->10
+terminal node (6, 6)->13
+Return:  (6, 6)->12
+Maximize lookahead: 1 (3, 5)->12
+
+terminal node (4, 6)->4
+terminal node (6, 5)->7
+terminal node (6, 6)->10
+terminal node (7, 4)->15
+Return:  (7, 4)->12
+Maximize lookahead: 1 (3, 6)->12
+
+Minimize lookahead: 2 (4, 3)->12
+
+terminal node (3, 4)->4
+terminal node (3, 6)->7
+terminal node (5, 6)->10
+terminal node (6, 5)->13
+Return:  (6, 5)->12
+Maximize lookahead: 1 (3, 5)->12
+
+terminal node (3, 4)->4
+terminal node (3, 6)->7
+terminal node (5, 6)->10
+terminal node (6, 5)->13
+Return:  (6, 5)->12
+Maximize lookahead: 1 (4, 6)->12
+
+terminal node (4, 3)->7
+terminal node (6, 5)->12
+Maximize lookahead: 1 (5, 3)->12
+
+terminal node (3, 4)->4
+terminal node (4, 3)->7
+terminal node (5, 6)->10
+terminal node (6, 5)->13
+Return:  (6, 5)->12
+Maximize lookahead: 1 (6, 2)->12
+
+Minimize lookahead: 2 (6, 3)->12
+
+terminal node (3, 3)->4
+terminal node (3, 5)->7
+terminal node (4, 3)->10
+terminal node (5, 3)->13
+Return:  (5, 3)->12
+Maximize lookahead: 1 (3, 6)->12
+
+terminal node (3, 5)->7
+terminal node (4, 3)->9
+terminal node (6, 3)->12
+Maximize lookahead: 1 (4, 6)->12
+
+terminal node (4, 3)->7
+terminal node (4, 7)->9
+terminal node (6, 3)->15
+Return:  (6, 3)->12
+Maximize lookahead: 1 (5, 6)->12
+
+terminal node (4, 3)->4
+terminal node (6, 3)->7
+terminal node (7, 5)->12
+Maximize lookahead: 1 (6, 6)->12
+
+terminal node (3, 3)->4
+terminal node (4, 3)->7
+terminal node (5, 3)->10
+terminal node (6, 3)->13
+Return:  (6, 3)->12
+Maximize lookahead: 1 (7, 6)->12
+
+Minimize lookahead: 2 (6, 5)->12
+
+Maximize lookahead: 3 (6, 4)->12
